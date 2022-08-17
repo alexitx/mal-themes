@@ -1,0 +1,21 @@
+{
+  "name": "mal-themes",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "alexitx <alexander@alexitx.com>",
+  "license": "MIT",
+  "dependencies": {
+    "autoprefixer": "^10.4.8",
+    "cssnano": "^5.1.13",
+    "gulp": "^4.0.2",
+    "gulp-postcss": "^9.0.1",
+    "postcss": "^8.4.16"
+  },
+  "overrides": {
+    "es5-ext": "0.10.53"
+  }
+}

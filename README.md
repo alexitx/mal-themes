@@ -9,6 +9,21 @@ Personalized themes for [MyAnimeList][mal].
 - [src/minimal][src-minimal] - Minimal dark flat theme
 
 
+## Building
+
+```
+npm install
+```
+```
+npm install --global gulp-cli
+```
+```
+gulp build
+```
+
+Prefixed and minified CSS can be found under `dist`.
+
+
 ## License
 
 All themes are licensed under the [MIT license][license] unless otherwise specified.
