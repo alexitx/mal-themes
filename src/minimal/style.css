@@ -1,0 +1,73 @@
+html {
+    height: 100%;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100%;
+}
+
+#list-container {
+    flex: 1 0 auto;
+    background-color: rgba(30, 30, 30, 0.7) !important;
+    border: none;
+}
+
+.list-menu-float {
+    border: none;
+}
+
+#status-menu {
+    background-color: rgba(30, 30, 30, 0.8);
+    border: none;
+}
+
+#status-menu .status-button {
+    color: #e0e0e0;
+}
+
+.list-block .list-status-title {
+    background-color: transparent !important;
+}
+
+.list-block .list-status-title .text {
+    color: #e0e0e0;
+}
+
+.list-block .list-status-title .stats a {
+    color: #e0e0e0;
+}
+
+.list-table .list-table-header .header-title {
+    background-color: transparent !important;
+    border: none;
+}
+
+.list-table .list-table-header .header-title .link {
+    color: #e0e0e0 !important;
+}
+
+.list-table .list-table-data .data a {
+    color: #ccc !important;
+}
+
+.list-table .list-table-data a:not(.edit-disabled):hover {
+    color: #80bfff !important;
+}
+
+.list-table .list-table-data .data.title > a {
+    color: #fff !important;
+}
+
+.list-table .list-table-data .tags .edit {
+    color: #0080FF !important;
+}
+
+.list-table .list-table-data .tags .edit:hover {
+    color: #80bfff !important;
+}
+
+#footer-block {
+    background-color: rgba(30, 30, 30, 0.8) !important;
+}
