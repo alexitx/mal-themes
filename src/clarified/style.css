@@ -2196,6 +2196,30 @@ div[style^="width: 300px;"] input:hover {
 }
 
 
+/*---------
+Completed popup
+---------*/
+
+#fancybox-wrap {
+    background-color: var(--content-background);
+    border: 1px solid rgba(0, 0, 0, 0.2);
+}
+
+#fancybox-wrap #fancybox-outer {
+    background-color: transparent;
+}
+
+#fancybox-wrap #fancybox-outer #fancybox-inner {
+    color: #fff;
+}
+
+#fancybox-wrap #fancybox-outer #fancybox-inner input {
+    padding: 2px 8px;
+    color: var(--content-text);
+    border: 1px solid #0080ff;
+}
+
+
 
 /*=========
 !VARIABLES
